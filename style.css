@@ -1,0 +1,112 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background: linear-gradient(white,DarkGray);
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+}
+
+.caixa {
+	width: 69%;
+	margin: 0 auto;
+}
+
+/*nav {
+	position: absolute;
+	top: 95px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}*/
+
+.cabecalho-nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0 0 0 15px;
+}
+
+.cabecalho-nav a:hover {
+	color: #A9A9A9;
+}
+
+video {
+	margin-left: 25%;
+	margin-bottom: 1%;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 2%;
+}
+
+ul ol {
+	margin-right: 400px;
+	margin-left: 400px;
+}
+
+.espaço {
+	margin-bottom: 45px;
+}
+
+.imagem {
+	float: left;
+	margin-left: 0px;
+	width: 20%;
+	margin: 0 2% 2% 0;
+}
+
+.imagem-contra {
+	width: 20%;
+	margin: 1% 0 1% 15%;
+}
+
+footer {
+	background: #000000;
+	padding: 40px 10px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 30px;
+}
+
+.copyright a {
+	color: #A9A9A9;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+/*FLEXBOX*/
+
+.cabecalho .caixa {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabecalho-nav {
+	display: flex;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
